@@ -158,6 +158,17 @@ ul.header__main-nav--links li a:active::after {
   transform: scaleX(1);
 }
 
+section#showcase{
+  height:100vh;
+  background-image: url("img/full-bg-07.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
 @media screen and (max-width: 610px){
   header#header{
     position: absolute;
